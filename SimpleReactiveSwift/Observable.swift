@@ -10,6 +10,6 @@ import Foundation
 class Observable<Element>: ObservableType {
     typealias Element = Element
     func subscribe<Observer: ObserverType>(_ observer: Observer) -> Disposable where Observer.Element == Element  {
-        return Disposables.create()
+        fatalError()
     }
 }
