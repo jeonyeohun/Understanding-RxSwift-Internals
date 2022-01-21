@@ -53,7 +53,7 @@ let observable = Observable<Int>.create { observer in
 - 따라서 create 메서드와 함께 전달하는 클로저가 subscribeHanlder에 저장됩니다.
 
   ```swift
-  let observable = Observable<Int>.create { observer in // 이 trailing closure가 subscribeHanlder에 저장된다.
+  let observable = Observable<Int>.create { observer in // 이 trailing closure가 subscribeHandler에 저장된다.
     observer.onNext(1)
     observer.onNext(2)
     observer.onCompleted()
