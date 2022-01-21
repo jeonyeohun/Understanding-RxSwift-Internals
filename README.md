@@ -13,35 +13,35 @@ https://github.com/ReactiveX/RxSwift 코드를 최대한 따라가면서, 기본
 
 ## 이해하고자 하는 객체들
 
-### AnonymousObservable
+### [AnonymousObservable](https://github.com/ReactiveX/RxSwift/blob/b4307ba0b6425c0ba4178e138799946c3da594f8/RxSwift/Observables/Create.swift#L64)
 
-### AnonymousObservableSink
+### [AnonymousObservableSink](https://github.com/ReactiveX/RxSwift/blob/b4307ba0b6425c0ba4178e138799946c3da594f8/RxSwift/Observables/Create.swift#L25)
 
-### AnonymousObserver
+### [AnonymousObserver](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Observers/AnonymousObserver.swift)
 
-### AnyObserver
+### [AnyObserver](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/AnyObserver.swift)
 
-### Cancelable
+### [Cancelable](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Cancelable.swift)
 
-### Disposables
+### [Disposables](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Disposables/Disposables.swift)
 
-### Disposable
+### [Disposable](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Disposable.swift)
 
-### Event
+### [Event](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Event.swift)
 
-### Observable
+### [Observable](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Observable.swift)
 
-### ObservableConvertibleType
+### [ObservableConvertibleType](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/ObservableConvertibleType.swift)
 
-### ObservableType
+### [ObservableType](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/ObservableType.swift)
 
-### ObserverType
+### [ObserverType](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/ObserverType.swift)
 
-### Producer
+### [Producer](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Observables/Producer.swift)
 
-### Sink
+### [Sink](https://github.com/ReactiveX/RxSwift/blob/main/RxSwift/Observables/Sink.swift)
 
-### SinkDisposer
+### [SinkDisposer](https://github.com/ReactiveX/RxSwift/blob/b4307ba0b6425c0ba4178e138799946c3da594f8/RxSwift/Observables/Producer.swift#L39)
 
 ## 이해하고자 하는 동작들
 
