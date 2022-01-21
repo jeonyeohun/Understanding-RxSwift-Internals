@@ -13,6 +13,9 @@ protocol ObserverType {
 }
 
 extension ObserverType {
+    /* 여행 20 */
+    // onNext는 ObservableType에서 제공해주는 on(.next(element))의 축약형이었다..
+    // 그럼 결국 AnyObserver의 on을 찾아가면된다.
     public func onNext(_ element: Element) {
         self.on(.next(element))
     }
