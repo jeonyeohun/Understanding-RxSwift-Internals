@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol ObservableContertibleType {
+protocol ObservableConvertibleType {
     associatedtype Element
     func asObservable() -> Observable<Element>
 }
