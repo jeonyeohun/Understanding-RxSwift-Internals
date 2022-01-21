@@ -23,9 +23,6 @@ let observable = Observable<Int>.create { observer in
     return Disposables.create()
 }
 
-/* */
-
-
 /* 여행 1 ~ 3 정리 */
 // 지금까지의 여행을 통해 알 수 있는건 두 가지 였다.
 // 1. create로 만드는건 Observable 타입이고, 메서드 호출 시 전달되는 클로저의 인자는 AnyObserver이다.
