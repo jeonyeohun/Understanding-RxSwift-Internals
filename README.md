@@ -1,9 +1,9 @@
-# Simple-RxSwift
-💆🏻‍♂️ 만들면서 이해하는 알엑스
+# 읽다보면 이해가 되는 알엑스 👀
 
 ## Intro
-익명 Observable, 익명 Observer만 존재하는 간단한 리액티브를 구현하는 저장소입니다.</br>
-https://github.com/ReactiveX/RxSwift 코드를 최대한 따라가면서, 기본적인 기능을 제공하는 코드를 제외하고는 삭제하여 리액티브 프로그래밍의 원리를 이해하는데 집중합니다. 
+익명 Observable, 익명 Observer만 존재하는 간단한 리액티브를 구현하는 저장소입니다. </br></br>
+
+[공식 레포](https://github.com/ReactiveX/RxSwift)의 코드를 최대한 따라가면서, 기본적인 기능을 제공하는 코드를 제외하고는 삭제하여 리액티브 프로그래밍의 원리를 이해하는데 집중합니다. 
 
 </br>
 
