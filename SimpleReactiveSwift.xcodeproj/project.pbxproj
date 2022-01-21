@@ -22,6 +22,7 @@
 		B0D0FD87279A961500195EE5 /* Cancelable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FD86279A961500195EE5 /* Cancelable.swift */; };
 		B0D0FD89279A962D00195EE5 /* AnonymousObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FD88279A962D00195EE5 /* AnonymousObserver.swift */; };
 		B0D0FD8B279A966D00195EE5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0FD8A279A966D00195EE5 /* Event.swift */; };
+		B0FA555C279B1EB90062E712 /* ObserverBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FA555B279B1EB90062E712 /* ObserverBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		B0D0FD86279A961500195EE5 /* Cancelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
 		B0D0FD88279A962D00195EE5 /* AnonymousObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousObserver.swift; sourceTree = "<group>"; };
 		B0D0FD8A279A966D00195EE5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		B0FA555B279B1EB90062E712 /* ObserverBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B0D0FD78279A94EA00195EE5 /* Producer.swift */,
 				B0D0FD7E279A959000195EE5 /* Sink.swift */,
 				B0D0FD7A279A950000195EE5 /* SinkDisposer.swift */,
+				B0FA555B279B1EB90062E712 /* ObserverBase.swift */,
 			);
 			path = SimpleReactiveSwift;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FA555C279B1EB90062E712 /* ObserverBase.swift in Sources */,
 				B0D0FD73279A946800195EE5 /* ObservableConvertibleType.swift in Sources */,
 				B0D0FD71279A7DB300195EE5 /* ObservableType.swift in Sources */,
 				B0D0FD87279A961500195EE5 /* Cancelable.swift in Sources */,
