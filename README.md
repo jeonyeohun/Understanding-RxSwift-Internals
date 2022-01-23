@@ -37,6 +37,8 @@ let observable = Observable<Int>.create { observer in
 - 생성한 Observable 구독
 - 구독 취소
 
+</br>
+
 ## 이해하고자 하는 객체들
 
 ### [AnonymousObservable](https://github.com/ReactiveX/RxSwift/blob/b4307ba0b6425c0ba4178e138799946c3da594f8/RxSwift/Observables/Create.swift#L64)
@@ -455,4 +457,9 @@ let observable = Observable<Int>.create { observer in
 
 ### Observable.create를 하면 일어나는 일 
 
+	
+[블로그 포스팅 - [RxSwift] Observable.create의 동작원리 이해하기](https://jeonyeohun.tistory.com/374)
+
 ### observable.subscribe를 하면 일어나는 일
+
+[블로그 포스팅 - [RxSwift] subscribe의 동작원리 이해하기](https://jeonyeohun.tistory.com/375)
